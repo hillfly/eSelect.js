@@ -1,0 +1,27 @@
+﻿<html>
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="demo/jquery-1.7.1.js"></script>
+    <script type="text/javascript" src="demo/store.min.js"></script>
+    <script type="text/javascript" src="eSelect.js?v=44"></script>
+</head>
+
+<body>
+    <form id="es-form">
+        <select type="text" id="select1" name="select1" es-autoload></select>
+        <select type="text" id="select2" name="select2"></select>
+    </form>
+    <script>
+    $('#es-form').eSelect({
+        userConfig: {
+            _esLoadImmediatlyFlag: false, //是否立即加载数据标志
+            _esContextCde: 'test', //系统标识，作为缓存key前缀
+            _esAjaxUrl: 'http://127.0.0.1/getOpts', //缓存远程获取接口地址
+            _eleProperty: 'name', //缓存key属性
+        }
+    });
+    </script>
+</body>
+
+</html>
