@@ -14,7 +14,7 @@ eSelect.js 基于以下第三方组件开发：
 > * JQuery 1.7.1
 > * store.js 1.3.20
 
-**zip包下载地址：[http://hillfly.com/eSelect/release/eSelectjs.0.1beta.zip][1]**
+**zip包下载地址：[http://www.hillfly.com/project/eSelect/release/eSelectjs.0.1beta.zip][1]**
 
 ------
 
